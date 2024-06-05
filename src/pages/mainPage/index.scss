@@ -1,0 +1,26 @@
+.for-bg{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/a3f3abe546f87d7bceb19ff1f3eea602.gif");
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+  .main{
+    position: absolute;
+    top: 35%;
+    font-size: 70px;
+  }
+  .social-media{
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
+    .icon{
+      width: 20px;
+      height: 20px;
+      transition: .5s;
+      &:hover{
+        transform: scale(1.2);
+      }
+    }
+  }
+}

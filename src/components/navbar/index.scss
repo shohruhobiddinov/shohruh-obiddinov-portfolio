@@ -1,0 +1,31 @@
+.for-bg{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/a3f3abe546f87d7bceb19ff1f3eea602.gif");
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+  .bg-dark {
+    background-color: #000;
+  }
+
+  .text-white {
+    color: #fff;
+  }
+
+  .ant-select-selector {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+
+  .ant-select-arrow {
+    color: #fff !important;
+  }
+  .for-content{
+    width: 102%;
+    height: 89vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+

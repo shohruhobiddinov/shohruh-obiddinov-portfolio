@@ -1,0 +1,28 @@
+.for-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/a3f3abe546f87d7bceb19ff1f3eea602.gif");
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+}
+.for-bg .main {
+  position: absolute;
+  top: 35%;
+  font-size: 70px;
+}
+.for-bg .social-media {
+  position: absolute;
+  bottom: 5%;
+  right: 20%;
+}
+.for-bg .social-media .icon {
+  width: 20px;
+  height: 20px;
+  transition: 0.5s;
+}
+.for-bg .social-media .icon:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=index.css.map */
